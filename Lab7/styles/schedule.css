@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#inspection-form {
+    display: flex;
+    gap: 20px;
+}
+
+#inspection-form label {
+    font-weight: bold;
+}
+
+#inspection-form input,
+#inspection-form select,
+#inspection-form button {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#car {
+    width: 250px;
+}
+
+#inspection-form button {
+    background-color: #d81b1b;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#inspection-form button:hover {
+    background-color: #680d0d;
+}
+
+#schedule-calendar {
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.sx__event {
+    cursor: pointer;
+}
+
+:root {
+    --sx-color-primary: #d81b1b; 
+    --sx-color-primary-container: #ffd4d4; 
+    --sx-color-on-primary-container: #d81b1b;
+  }
