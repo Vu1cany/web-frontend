@@ -1,0 +1,64 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#inspection-form {
+    display: flex;
+    gap: 20px;
+}
+
+#inspection-form label {
+    font-weight: bold;
+}
+
+#inspection-form input,
+#inspection-form select,
+#inspection-form button {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#car {
+    width: 250px;
+}
+
+#inspection-form button {
+    background-color: #d81b1b;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#inspection-form button:hover {
+    background-color: #680d0d;
+}
+
+.schedule {
+    margin-top: 20px;
+}
+
+#schedule-table {
+    width: 100%;
+    background-color: #fff;
+    border-collapse: collapse;
+}
+
+#schedule-table th,
+#schedule-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#schedule-table th {
+    background-color: #f2f2f2;
+}
+
+#schedule-table td.scheduled {
+    background-color: #d81b1b;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
